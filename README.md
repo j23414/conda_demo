@@ -1,5 +1,7 @@
 # Conda Environment Demo
 
+* [SCINet Conda introduction](https://scinet.usda.gov/guide/conda/#introduction)
+
 ### Part 1: Getting ready to build a conda environments
 
 Normally you'd log into Ceres or Atlas with your username and the full ssh path
@@ -187,14 +189,14 @@ Slurm script on Atlas
 #SBATCH --error=R-%x.%J.err
 #SBATCH --mail-user=YOUR_USERNAME@email.com
 #SBATCH --mail-type=begin,end
-#SBATCH --account=isu_gif_vrsc                              #<= Atlas Requires an account name
+#SBATCH --account=isu_gif_vrsc     #<= Atlas Requires an account name
 
 # === Set working directory and in/out variables
 cd ${SLURM_SUBMIT_DIR}
 
 # === Load conda environment
 source /home/${USER}/miniconda3/etc/profile.d/conda.sh
-conda activate /project/isu_gif_vrsc/demo/myproject_env     # <= remember to edit path
+conda activate /project/isu_gif_vrsc/demo/myproject_env  # <= remember to edit path
 
 # === Main Program
 echo "Paths:" > version.txt
