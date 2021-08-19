@@ -136,7 +136,7 @@ When done, can deactivate the environment.
 
 ```
 # === Ceres
-source deactivate
+conda deactivate
 
 # === Atlas
 conda deactivate
