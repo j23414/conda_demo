@@ -1,6 +1,7 @@
 # Conda Environment Demo
 
 * [SCINet Conda introduction](https://scinet.usda.gov/guide/conda/#introduction)
+* [MS Stream: Video Demo (will be adding voice over)](https://web.microsoftstream.com/video/144210a3-df9c-4651-a06a-a79055bd0768) - only usda email will be able to access
 
 ### Part 1: Getting ready to build a conda environments
 
