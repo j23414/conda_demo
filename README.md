@@ -1,4 +1,4 @@
-# Conda Demo
+# Conda Environment Demo
 
 ### Part 1: Getting ready to build a conda environments
 
@@ -56,7 +56,7 @@ load or install miniconda
 
 ```
 (module avail) &> module_list.txt       # <= I tend to list all software first
-grep -i miniconda module_list.txt
+grep -i conda module_list.txt
 
 # === Ceres
 module load miniconda
@@ -140,7 +140,7 @@ source deactivate
 conda deactivate
 ```
 
-### Part 3: Connect conda in a Slurm Script:
+### Part 3: Using the conda environment in a Slurm Script:
 
 Slurm script on Ceres
 
