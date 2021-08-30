@@ -53,6 +53,7 @@ salloc -N 1 -n 4 -t 04:00:00 -p scavenger
 
 # === Atlas
 salloc -N 1 -n 4 -t 04:00:00 -p atlas -A isu_gif_vrsc   # <= you will need your account name
+srun --pty bash                                         # <= extra step on Atlas to be on interactive node
 ```
 
 load or install miniconda
